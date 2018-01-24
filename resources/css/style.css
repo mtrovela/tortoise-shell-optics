@@ -1,0 +1,32 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  margin: auto 1rem auto 1rem;
+  height: 1.51rem;
+}
+
+.nav-items  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
